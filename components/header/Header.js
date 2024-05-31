@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <div className='lg:w-[80%] w-[90%] mx-auto flex items-center justify-between lg:pt-[40px] pt-[30px] lg:pb-[40px] pb-[20px]' >
       <div >
-        <Link href='/' ><Image src={Logo} width={180} height={50} alt='Company logo' className='w-[180px] z-[999]'/></Link>
+        <Link href='/' ><Image src={Logo} width={180} height={50} alt='Company logo' className='w-[180px] z-50'/></Link>
         
       </div>
       <div className='lg:flex items-center hidden gap-10 '>

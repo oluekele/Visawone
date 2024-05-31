@@ -47,13 +47,13 @@ const Footer = () => {
             </ul>
           </div>
           <div className=' lg:w-[250px]'>
-            <h2 className='font-medium lg:text-[30px] text-[18px] '>Utility Pages</h2>
+            <h2 className='font-medium lg:text-[30px] text-[18px] '>Our Services</h2>
             <ul className='flex-col items-center  font-[Inter]  font-medium '>
-            <li className=' pt-2' ><Link href='/'>Style Guide</Link></li>
+            <li className=' pt-2' ><Link href='/'>Book Flight</Link></li>
             <li className=' pt-2'><Link href='/'>Protected</Link></li>
             <li className=' pt-2'><Link href='/'>Not Found</Link></li>
             
-            <li className=' pt-2'><Link href='/'>Licences</Link></li>
+            {/* <li className=' pt-2'><Link href='/'>Licences</Link></li> */}
             <li className=' pt-2'><Link href='/'>Changelog</Link></li>
             </ul>
           </div>

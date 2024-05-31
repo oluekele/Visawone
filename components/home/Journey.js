@@ -11,7 +11,7 @@ import Blog4 from '../../public/assets/blog-post-04.jpg'
 const Journey = () => {
   return (
     <div className='bg-[#4d505b17] mb-[300px] pb-[300px]'>
-      <div className='w-[80%] mx-auto lg:flex items-center justify-between py-10 '>
+      {/* <div className='w-[80%] mx-auto lg:flex items-center justify-between py-10 '>
         <h2 className='font-medium text-[40px] text-[#0C0459]'>LATEST TRAVEL NEWS</h2>
         <button className='text-white bg-[#091027] text-[18px] px-[30px] py-4 transition-[5s] rounded-full cursor-pointer hover:bg-[#75602b] '>View All Articles</button>
       </div>
@@ -46,7 +46,7 @@ const Journey = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className='lg:w-[80%] w-[90%] lg:mt-[100px] mx-auto bg-[#0d0459d5] rounded-[30px] overflow-hidden absolute lg:left-[10%] left-6  flex-col items-center justify-center lg:pt-[80px] pt-[50px] pb-[50px]' id='bgimage'>
         
