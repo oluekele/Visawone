@@ -4,6 +4,9 @@ import './Header.css';
 import { LuArrowDownToLine } from "react-icons/lu";
 import { MdOutlineMenu } from "react-icons/md";
 import { IoClose } from "react-icons/io5";
+import Image from 'next/image';
+import Logo from '../../public/assets/visawone log.png'
+import Link from 'next/link';
 
 
 
@@ -15,16 +18,16 @@ const Header = () => {
   return (
     <div className='lg:w-[80%] w-[90%] mx-auto flex items-center justify-between lg:pt-[40px] pt-[30px] lg:pb-[40px] pb-[20px]' >
       <div >
-        <a href='/' ><img src='https://visawone.com/wp-content/uploads/2024/03/VISAWONE-LOGO-TRANSPARENT-e1710764845883-300x61.png' alt='Company logo' className='w-[180px] z-[999]'/></a>
+        <Link href='/' ><Image src={Logo} width={180} height={50} alt='Company logo' className='w-[180px] z-[999]'/></Link>
         
       </div>
       <div className='lg:flex items-center hidden gap-10 '>
         <ul className='flex items-center gap-6 text-[20px]  font-[600] '>
-          <li><a href="https://visawone.com/visa-interviews/">Visa Interviews</a></li>
-          <li><a href="https://visawone.com/evisa/">eVisa</a></li>
-          <li><a href="https://visawone.com/passport/">Passport</a></li>
-          <li><a href="https://visawone.com/about/">About</a></li>
-          <li><a href="https://visawone.com/contact/">Contact</a></li>
+          <li><Link href="https://visawone.com/visa-interviews/">Visa Interviews</Link></li>
+          <li><Link href="https://visawone.com/evisa/">eVisa</Link></li>
+          <li><Link href="https://visawone.com/passport/">Passport</Link></li>
+          <li><Link href="https://visawone.com/about/">About</Link></li>
+          <li><Link href="https://visawone.com/contact/">Contact</Link></li>
           
         </ul>
         <button className='flex items-center gap-2 py-3 px-6 text-white rounded-full bg-[#25262b] hover:bg-[#0C0459]'><LuArrowDownToLine size={20}/><span>App Download</span></button>
@@ -39,10 +42,10 @@ const Header = () => {
           <ul className='flex-col items-center text-[18px]   font-medium  w-[70px]'>
             
             <li className=' pb-2 w-[150px]' ><a href="https://visawone.com/visa-interviews/">Visa Interviews</a></li>
-          <li className=' pb-2'><a href="https://visawone.com/evisa/">eVisa</a></li>
-          <li className=' pb-2'><a href="https://visawone.com/passport/">Passport</a></li>
-          <li className=' pb-2'><a href="https://visawone.com/about/">About</a></li>
-          <li className=' pb-2'><a href="https://visawone.com/contact/">Contact</a></li>
+          <li className=' pb-2'><Link href="https://visawone.com/evisa/">eVisa</Link></li>
+          <li className=' pb-2'><Link href="https://visawone.com/passport/">Passport</Link></li>
+          <li className=' pb-2'><Link href="https://visawone.com/about/">About</Link></li>
+          <li className=' pb-2'><Link href="https://visawone.com/contact/">Contact</Link></li>
           </ul>
           <button className='flex items-center gap-2 py-4 mt-10 px-6 text-white rounded-full w-[200px] bg-[#25262b] hover:bg-[#0C0459]'><LuArrowDownToLine size={20}/><span>App Download</span></button>
         </div>

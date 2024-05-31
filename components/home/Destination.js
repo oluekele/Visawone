@@ -5,6 +5,12 @@ import { CiLocationOn } from "react-icons/ci";
 import dest from './Destimage';
 import ViswoneDemo from '../../public/assets/visawone demo.png'
 import Image from 'next/image';
+import Bana from '../../public/assets/home-banner-map.png'
+import Pattern from '../../public/assets/pattern-bg.svg'
+import Client1 from '../../public/assets/client-logo-1.svg'
+import Client2 from '../../public/assets/client-logo-2.svg'
+import Client3 from '../../public/assets/client-logo-3.svg'
+import Client4 from '../../public/assets/client-logo-4.svg'
 
 
 const Destination = () => {
@@ -15,7 +21,7 @@ const Destination = () => {
     <div className='overflow-hidden'>
       
       <div className='w-full absolute top-[-100px] left-[-50px] z-[-1]' >
-        <img src='https://assets-global.website-files.com/64da0495a0c05cbac93130da/64e344d88e117e23bb4ea916_home-banner-map.png' alt='background' />
+        <Image src={Bana} width={600} height={500} alt='background' />
       </div>
       <div className='w-full relative overflow-hidden lg:ml-[8%] pl-10 lg:flex items-center justify-between gap-10 pb-[100px]  ' >
         <div className='flex-col items-center justify-center lg:w-[45%]'>
@@ -35,7 +41,7 @@ const Destination = () => {
           
           <Image src={ViswoneDemo} alt='phone' className='h-[600px]' width={300} height={600}/>
 
-          <img src='https://assets-global.website-files.com/64da0495a0c05cbac93130da/64e340ad442ecdd8668014e3_home-banner-pattern-bg.svg' alt='flow' className=' h-[400px]  object-cover mt-[150px] ml-[-100px] z-[-1]' />
+          <Image src={Pattern} width={600} height={500} alt='flow' className=' h-[400px]  object-cover mt-[150px] ml-[-100px] z-[-1]' />
           
           
         </div>
@@ -66,10 +72,10 @@ const Destination = () => {
             <p className='text-[35px] lg:w-[300px] text-[#0C0459]'>Visa Partners</p>
           </div>
           <div className='flex items-center lg:gap-10 gap-4 flex-wrap'>
-            <img src='https://assets-global.website-files.com/64da0495a0c05cbac93130da/65642fee16d0ec6bd3ec155a_client-logo-1.svg' alt='' className='w-[150px] lg:full'/>
-            <img src='https://assets-global.website-files.com/64da0495a0c05cbac93130da/6564300bb06eaebaf49808bb_client-logo-2.svg' alt='' className='w-[150px] lg:full'/>
-            <img src='https://assets-global.website-files.com/64da0495a0c05cbac93130da/6564300b85583d4c15aeea94_client-logo-3.svg' alt='' className='w-[150px] lg:full'/>
-            <img src='https://assets-global.website-files.com/64da0495a0c05cbac93130da/6564302045db91a91b21ac3e_client-logo-4.svg' alt='' className='w-[150px] lg:full'/>
+            <Image src={Client1} width={150} height={50} alt='' className='w-[150px] lg:full'/>
+            <Image src={Client2} width={150} height={50} alt='' className='w-[150px] lg:full'/>
+            <Image src={Client3} width={150} height={50} alt='' className='w-[150px] lg:full'/>
+            <Image src={Client4} width={150} height={50} alt='' className='w-[150px] lg:full'/>
           </div>
           
       </div>

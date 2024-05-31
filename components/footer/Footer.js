@@ -3,6 +3,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaPinterest } from "react-icons/fa";
+import Image from 'next/image';
+import Link from 'next/link';
+import Logo from '../../public/assets/visawone log.png'
 
 
 const Footer = () => {
@@ -11,7 +14,7 @@ const Footer = () => {
       <div className='border-b-2 pb-6 lg:flex items-center justify-between lg:text-[20px]'>
         <div className='flex flex-col  lg:w-[40%]'>
           <div >
-            <a href='/' ><img src='https://visawone.com/wp-content/uploads/2024/03/VISAWONE-LOGO-TRANSPARENT-e1710764845883-300x61.png' alt='Company logo' className='w-[180px] z-[999] pb-4'/></a>
+          <Link href='/' ><Image src={Logo} width={180} height={50} alt='Company logo' className='w-[180px] z-[999]'/></Link>
             
           </div>
           <p className='w-[90%] lg:w-[60%] lg:pb-10 pb-6 text-[#0C0459] text-[19px] '>Apply For Visa, Find Jobs & Schools Abroad. Learn Earning Skills.</p>
@@ -27,31 +30,31 @@ const Footer = () => {
           <div >
             <h2 className='font-medium  lg:text-[30px] text-[18px]'>Company</h2>
             <ul className='flex-col items-center  font-[Inter]  font-medium '>
-            <li className='  pt-2 ' ><a href='/'>Home</a></li>
-            <li className=' pt-2 '><a href='/'>About</a></li>
-            <li className=' pt-2 '><a href='/'>Feature</a></li>
-            <li className=' pt-2 '><a href='/'>Team</a></li>
+            <li className='  pt-2 ' ><Link href='/'>Home</Link></li>
+            <li className=' pt-2 '><Link href='/'>About</Link></li>
+            <li className=' pt-2 '><Link href='/'>Feature</Link></li>
+            <li className=' pt-2 '><Link href='/'>Team</Link></li>
             </ul>
           </div>
           <div >
             <h2 className='font-medium lg:text-[30px] text-[18px] '>Quick Link</h2>
             <ul className='flex-col items-center  font-[Inter]  font-medium '>
-            <li className='' id='fontActive'><a href="https://visawone.com/visa-interviews/">Visa Interviews</a></li>
-          <li className=' '><a href="https://visawone.com/evisa/">eVisa</a></li>
-          <li className=' '><a href="https://visawone.com/passport/">Passport</a></li>
-          <li className=' '><a href="https://visawone.com/about/">About</a></li>
-          <li className=' '><a href="https://visawone.com/contact/">Contact</a></li>
+            <li className='' id='fontActive'><Link href="https://visawone.com/visa-interviews/">Visa Interviews</Link></li>
+          <li className=' '><Link href="https://visawone.com/evisa/">eVisa</Link></li>
+          <li className=' '><Link href="https://visawone.com/passport/">Passport</Link></li>
+          <li className=' '><Link href="https://visawone.com/about/">About</Link></li>
+          <li className=' '><Link href="https://visawone.com/contact/">Contact</Link></li>
             </ul>
           </div>
           <div className=' lg:w-[250px]'>
             <h2 className='font-medium lg:text-[30px] text-[18px] '>Utility Pages</h2>
             <ul className='flex-col items-center  font-[Inter]  font-medium '>
-            <li className=' pt-2' ><a href='/'>Style Guide</a></li>
-            <li className=' pt-2'><a href='/'>Protected</a></li>
-            <li className=' pt-2'><a href='/'>Not Found</a></li>
+            <li className=' pt-2' ><Link href='/'>Style Guide</Link></li>
+            <li className=' pt-2'><Link href='/'>Protected</Link></li>
+            <li className=' pt-2'><Link href='/'>Not Found</Link></li>
             
-            <li className=' pt-2'><a href='/'>Licences</a></li>
-            <li className=' pt-2'><a href='/'>Changelog</a></li>
+            <li className=' pt-2'><Link href='/'>Licences</Link></li>
+            <li className=' pt-2'><Link href='/'>Changelog</Link></li>
             </ul>
           </div>
           
