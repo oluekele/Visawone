@@ -1,0 +1,12 @@
+ul{
+  color: #181717be;
+}
+li:hover{
+ color: #0C0459;
+}
+#pages{
+  box-shadow: -3px 3px 20px #0b0b0b57;
+}
+#trans{
+  transition: all 5s ease-in-out;
+}
