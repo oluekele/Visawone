@@ -10,7 +10,7 @@ import Blog4 from '../../public/assets/blog-post-04.jpg'
 
 const Journey = () => {
   return (
-    <div className='bg-[#4d505b17] lg:mb-[300px] mb-[150px] pb-[300px]'>
+    <div className='bg-[#4d505b17] lg:mb-[300px] mb-[180px] pb-[300px]'>
       {/* <div className='w-[80%] mx-auto lg:flex items-center justify-between py-10 '>
         <h2 className='font-medium text-[24px] text-[#0C0459]'>LATEST TRAVEL NEWS</h2>
         <button className='text-white bg-[#091027] text-[18px] px-[30px] py-4 transition-[5s] rounded-full cursor-pointer hover:bg-[#75602b] '>View All Articles</button>
@@ -48,7 +48,7 @@ const Journey = () => {
         </div>
       </div> */}
 
-      <div className='lg:w-[80%] w-[90%] lg:mt-[100px] mx-auto bg-[#0d0459] rounded-[30px] overflow-hidden absolute lg:left-[10%] left-6  flex-col items-center justify-center lg:pt-[80px] pt-[50px] pb-[50px] z-10' id='bgimage'>
+      <div className='lg:w-[80%] md:w-[90%] w-full lg:mt-[100px] mx-auto bg-[#0d0459] md:rounded-[30px] overflow-hidden absolute lg:left-[10%] md:left-6 flex-col items-center justify-center lg:pt-[80px] pt-[50px] pb-[50px] z-10' id='bgimage'>
         
         <div className='text-white flex-col items-center justify-center  top-[15%]'>
           <h2 className='text-[24px] font-medium pb-2 text-center w-[80%] mx-auto z-10'>Ready To Travel? Get Started</h2>
