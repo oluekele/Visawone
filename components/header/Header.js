@@ -22,7 +22,7 @@ const Header = () => {
         
       </div>
       <div className='lg:flex items-center hidden gap-10 '>
-        <ul className='flex items-center gap-6 text-[20px]  font-[600] '>
+        <ul className='flex items-center gap-6 text-[18px]  font-[600] '>
           <li><Link href="https://visawone.com/visa-interviews/">Visa Interviews</Link></li>
           <li><Link href="https://visawone.com/evisa/">eVisa</Link></li>
           <li><Link href="https://visawone.com/passport/">Passport</Link></li>
@@ -30,7 +30,7 @@ const Header = () => {
           <li><Link href="https://visawone.com/contact/">Contact</Link></li>
           
         </ul>
-        <button className='flex items-center gap-2 py-3 px-6 text-white rounded-full bg-[#25262b] hover:bg-[#0C0459]'><LuArrowDownToLine size={20}/><span>App Download</span></button>
+        <button className='flex items-center text-[16px] gap-2 py-3 px-6 text-white rounded-full bg-[#25262b] hover:bg-[#0C0459]'><LuArrowDownToLine size={20}/><span>App Download</span></button>
       </div>
       <div className='text-white cursor-pointer bg-[#25262b] p-5 relative rounded-[8px] lg:hidden z-[999]' onClick={() => setSideNav(!sideNav)}>
       <MdOutlineMenu size={20} />
@@ -47,7 +47,7 @@ const Header = () => {
           <li className=' pb-2'><Link href="https://visawone.com/about/">About</Link></li>
           <li className=' pb-2'><Link href="https://visawone.com/contact/">Contact</Link></li>
           </ul>
-          <button className='flex items-center gap-2 py-4 mt-10 px-6 text-white rounded-full w-[200px] bg-[#25262b] hover:bg-[#0C0459]'><LuArrowDownToLine size={20}/><span>App Download</span></button>
+          <button className='flex text-[16px] items-center gap-2 py-4 mt-10 px-6 text-white rounded-full w-[200px] bg-[#25262b] hover:bg-[#0C0459]'><LuArrowDownToLine size={20}/><span>App Download</span></button>
         </div>
         <IoClose className='absolute top-[10%] left-[250px] cursor-pointer' onClick={() => setSideNav(false)}/>
       </div>

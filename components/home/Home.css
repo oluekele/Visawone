@@ -33,7 +33,7 @@
 }
 
 #bgimage{
-  background-image: url('../../public/assets/waves.svg');
+  /* background-image: url('../../public/assets/waves.svg'); */
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center;
@@ -143,7 +143,7 @@
     }
     
     100%{
-      transform: translateX(-240%);
+      transform: translateX(-220%);
     }
     
   
