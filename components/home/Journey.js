@@ -7,6 +7,7 @@ import Blog1 from '../../public/assets/blog-post-01.jpg'
 import Blog2 from '../../public/assets/blog-post-02.jpg'
 import Blog3 from '../../public/assets/blog-post-03.jpg'
 import Blog4 from '../../public/assets/blog-post-04.jpg'
+import Link from 'next/link';
 
 const Journey = () => {
   return (
@@ -51,13 +52,17 @@ const Journey = () => {
       <div className='lg:w-[80%] md:w-[90%] w-full lg:mt-[100px] mx-auto bg-[#0d0459] md:rounded-[30px] overflow-hidden absolute lg:left-[10%] md:left-6 flex-col items-center justify-center lg:pt-[80px] pt-[50px] pb-[50px] z-10' id='bgimage'>
         
         <div className='text-white flex-col items-center justify-center  top-[15%]'>
-          <h2 className='text-[24px] font-medium pb-2 text-center w-[80%] mx-auto z-10'>Ready To Travel? Get Started</h2>
-          <p className='text-[16px] text-center pb-6 lg:w-[70%] w-[90%] mx-auto z-10'>You have seen the process now. It&rsquo;s simple, fast and seamless to explore the world with VisaWone App. Just download the app to get started.</p>
+          <h2 className='text-[26px] font-medium pb-2 text-center w-[80%] mx-auto z-10'>Ready To Travel? Get Started</h2>
+          <p className='text-[18px] text-center pb-6 lg:w-[70%] w-[90%] mx-auto z-10'>You have seen the process now. It&rsquo;s simple, fast and seamless to explore the world with VisaWone App. Just download the app to get started.</p>
         </div>
         <div className='flex flex-wrap gap-4 items-center justify-center mx-auto w-[80%] '>
-        <a href='/' className='rounded-[16px] py-4 px-6 z-10  lg:top-[50%] top-[60%] lg:left-[53%] left-[40%] lg:my-6 border-[0.1px] border-[#fff] flex items-center gap-2 bg-[#0b081d] hover:bg-[#e44f68] transition-[5s] text-[16px] text-[#fff]'><span><IoLogoGooglePlaystore /></span>Get on Android</a>
-        <a href='/' className='rounded-[16px] py-4 px-6 z-10  lg:top-[50%] top-[60%] lg:left-[53%] left-[40%]  lg:my-6 border-[0.1px] border-[#fff] flex items-center gap-2 bg-[#0b081d] text-[16px] hover:bg-[#e44f68] transition-[5s] text-[#fff]'><span><DiApple /></span> Get on iPhone</a>
+            <Link href='/' ><Image src="https://www.muna.app/assets/images/google.svg" alt='...'  width={200} height={80}/></Link>
+            <Link href='/' ><Image src="https://www.muna.app/assets/images/apple.svg" alt='...'  width={200} height={80}/></Link>
         </div>
+        {/* <div className='flex flex-wrap gap-4 items-center justify-center mx-auto w-[80%] '>
+        <a href='/' className='rounded-[16px] py-4 px-6 z-10  lg:top-[50%] top-[60%] lg:left-[53%] left-[40%] lg:my-6 border-[0.1px] border-[#fff] flex items-center gap-2 bg-[#0b081d] hover:bg-[#e44f68] transition-[5s] text-[18px] text-[#fff]'><span><IoLogoGooglePlaystore /></span>Get on Android</a>
+        <a href='/' className='rounded-[16px] py-4 px-6 z-10  lg:top-[50%] top-[60%] lg:left-[53%] left-[40%]  lg:my-6 border-[0.1px] border-[#fff] flex items-center gap-2 bg-[#0b081d] text-[18px] hover:bg-[#e44f68] transition-[5s] text-[#fff]'><span><DiApple /></span> Get on iPhone</a>
+        </div> */}
       </div>
     </div>
   )
