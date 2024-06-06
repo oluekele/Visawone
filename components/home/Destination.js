@@ -6,7 +6,6 @@ import ViswoneDemo from '../../public/assets/visawone demo.png'
 import Image from 'next/image';
 import Bana from '../../public/assets/home-banner-map.png'
 import Pattern from '../../public/assets/pattern-bg.svg'
-
 import Link from 'next/link';
 
 
@@ -15,7 +14,7 @@ const Destination = () => {
   
 
   return (
-    <div className='overflow-hidden '>
+    <div className='overflow-hidden'>
       
       <div className='w-full absolute top-[-100px] left-[-50px] z-[-1]' >
         <Image src={Bana} width={600} height={500} alt='bg' />
