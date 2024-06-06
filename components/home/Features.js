@@ -11,7 +11,7 @@ const Features = () => {
     <div className=' bg-[#eef3f8] py-10 lg:py-[100px] overflow-hidden' >
       <div className='flex-col items-center lg:mb-5 mb-0 lg:px-0 px-4'>
         <h2 className='font-bold text-center lg:text-[40px] text-[24px] pb-3'>What You Can Do On <span className='text-[#0d0459]'>Visawone App</span></h2>
-        <p className='text-center w-[90%] lg:w-[55%] lg:text-[18px] text-[16px] mx-auto text-[#4d505b] pb-5'>Explore endless solutions offered by VisaWone App</p>
+        <p className='text-center w-[90%] lg:w-[55%] lg:text-[18px] text-[16px] mx-auto text-[#4d505b] pb-5'>Explore endless travel solutions offered by VisaWone App</p>
       </div>
       <div className='lg:flex gap-4 items-center '>
         <div className='flex lg:mt-[50px] lg:w-[100%]'>
