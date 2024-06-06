@@ -2,7 +2,7 @@
 import './Home.css';
 import { CiLocationOn } from "react-icons/ci";
 import dest from './Destimage';
-import ViswoneDemo from '../../public/assets/visawone demo.png'
+import ViswoneDemo from '../../public/assets/hero image.png'
 import Image from 'next/image';
 import Bana from '../../public/assets/home-banner-map.png'
 import Pattern from '../../public/assets/pattern-bg.svg'
@@ -39,42 +39,7 @@ const Destination = () => {
           <Image src={Pattern} width={600} height={500} alt='flow' className=' h-[400px]  object-cover mt-[150px] ml-[-100px] z-[-1]' />
           
         </div>
-        <div className=' w-full mt-[-320px] lg:left-[62%] overflow-hidden z-[999] absolute top-[98%] md:left-[35%] left-[80px]' >
-          <div className='flex items-center gap-4  w-[60%]'   id='imageleft'>
-            {
-              place.map((item)=>(
-                <div key={item.id}>
-                <div className='w-[150px] h-[190px] bg-[#fff] rounded-[20px] p-2 text-[14px]'>      
-                <div>
-                  <Image src={require('../../public/assets/' + item.imgs + '.png')} alt={item.name} className='rounded-[16px]'/>
-                  <h3 className='font-medium opacity-[80%]'>{item.name}</h3>
-                  <div className='flex items-center justify-between opacity-[80%]'>
-                    <p className='flex items-center'><CiLocationOn />{item.location}</p>
-                    <span className='bg-[#ffae00] px-2 mr-1 rounded-md'>{item.price}</span>
-                  </div>     
-                </div>
-              </div>
-            </div>
-              ))
-            }
-            {
-              place.map((item)=>(
-                <div key={item.id} className='hidden lg:flex'>
-                <div className='w-[150px] h-[190px] bg-[#fff] rounded-[20px] p-2 text-[14px]'>      
-                <div>
-                  <Image src={require('../../public/assets/' + item.imgs + '.png')} alt={item.name} className='rounded-[16px]'/>
-                  <h3 className='font-medium opacity-[80%]'>{item.name}</h3>
-                  <div className='flex items-center justify-between opacity-[80%]'>
-                    <p className='flex items-center'><CiLocationOn />{item.location}</p>
-                    <span className='bg-[#ffae00] px-2 mr-1 rounded-md'>{item.price}</span>
-                  </div>     
-                </div>
-              </div>
-            </div>
-              ))
-            }
-          </div>
-        </div>
+       
       </div>
       
     </div>
