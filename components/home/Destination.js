@@ -25,7 +25,7 @@ const Destination = () => {
           
           <div className='mb-5 '>
             <h3 className='font-bold text-[32px] lg:text-[55px] text-[#fff] lg:leading-[65px] leading-[40px] lg:mb-[20px] mb-5 '>Check Visa Eligibility and Apply for Visa to any Country.</h3>
-            <p className='lg:text-[18px] text-[16px] text-[#fff]  w-[90%]'>You can now apply, explore, and learn earning skills for success in any environment! VisaWone App is a trusted companion in explor the world.</p>
+            <p className='lg:text-[18px] text-[16px] text-[#fff]  w-[90%]'>You can now apply, explore, and learn earning skills for success in any environment! VisaWone App is a trusted companion in exploring the world.</p>
           </div>
           <div className='flex flex-wrap gap-4 items-center '>
             <Link href='/' ><Image src="https://www.muna.app/assets/images/google.svg" alt='...'  width={200} height={80}/></Link>
