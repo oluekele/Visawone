@@ -29,7 +29,7 @@ const Footer = () => {
         <div className='flex justify-between mt-[30px] lg:w-[60%] lg:mt-0'>
           <div >
             <h2 className='font-medium  lg:text-[24px] text-[18px]'>Company</h2>
-            <ul className='flex-col items-center  font-[Inter] text-[16px]  font-medium '>
+            <ul className='flex-col items-center text-[16px]  font-medium '>
             <li className='' ><Link href='/'>Home</Link></li>
             <li className=''><Link href='/'>About</Link></li>
             <li className=''><Link href='/'>Feature</Link></li>
@@ -54,7 +54,7 @@ const Footer = () => {
             <li className=' pt-2'><Link href='/'>Not Found</Link></li> */}
             
             {/* <li className=' pt-2'><Link href='/'>Licences</Link></li> */}
-            <li className=''><Link href='/'>Changelog</Link></li>
+            <li className=''><Link href='/'>Book Flight</Link></li>
             </ul>
           </div>
           

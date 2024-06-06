@@ -23,14 +23,14 @@ const Destination = () => {
       <div className='w-full absolute top-[-100px] left-[-50px] z-[-1]' >
         <Image src={Bana} width={600} height={500} alt='background' />
       </div>
-      <div className='w-full pl-4 md:pl-0 relative overflow-hidden lg:pl-[150px] lg:flex items-center justify-between gap-10 huge ' >
-        <div className=' flex-col items-center justify-center lg:w-[45%]  '>
+      <div className='w-full pl-4 md:pl-0 relative overflow-hidden lg:pl-[150px] lg:flex items-center justify-between gap-10 huge pb-10' >
+        <div className=' flex-col items-center justify-center lg:w-[45%]  pt-10'>
           {/* <div className='dream w-[250px] text-[#fff] py-2 text-[18px] lg:text-[20px] rounded-[50px] mb-5 '>
             <h3 className='text-center'>Organize your travel</h3>
           </div> */}
           <div className='mb-5 '>
-            <h3 className='font-bold text-[32px] lg:text-[55px] text-[#fff] lg:leading-[65px] leading-[40px] lg:mb-[20px] mb-5 '>Explore visa, jobs, adventures, schools with  <span className='text-[#0C0459]'>VisaWone</span></h3>
-            <p className='lg:text-[18px] text-[16px] text-[#fff] w-[80%]'>You can now apply, explore, and learn earning skills for success in any environment! VisaWone App is a trusted companion in explore the world.</p>
+            <h3 className='font-bold text-[32px] lg:text-[55px] text-[#fff] lg:leading-[65px] leading-[40px] lg:mb-[20px] mb-5 w-[80%]'>Explore visa, jobs, adventures, schools with  <span className='text-[#0C0459]'>VisaWone</span></h3>
+            <p className='lg:text-[18px] text-[16px] text-[#fff] lg:w-[80%] w-[90%]'>You can now apply, explore, and learn earning skills for success in any environment! VisaWone App is a trusted companion in explore the world.</p>
           </div>
           <div className='flex items-center relative text-[18px]'>
             <button className=' text-white rounded-full bg-[#25262b] hover:bg-[#0C0459]'><a href='/' className='flex items-center gap-2 py-3 px-6'><LuArrowDownToLine size={20}/><span>Get Started</span></a></button>
@@ -45,7 +45,7 @@ const Destination = () => {
           
           
         </div>
-        <div className=' w-full mt-[-320px] lg:left-[54%] overflow-hidden z-[999] absolute lg:top-[103%] md:left-[70px] left-[55px]' >
+        <div className=' w-full mt-[-320px] lg:left-[54%] overflow-hidden z-[999] absolute top-[98%] md:left-[70px] left-[55px]' >
           <div className='flex items-center gap-4  w-[60%]'   id='imageleft'>
             {
               place.map((item)=>(
