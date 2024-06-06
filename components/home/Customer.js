@@ -13,7 +13,7 @@ const Customer = () => {
   return (
     <div className='flex-col items-center justify-center lg:pt-[100px] pt-[50px] lg:pb-0  mx-auto'>
       <div className='flex items-center justify-center'>
-      <h2 className='text-[#0b1433] lg:w-[550px] text-center lg:text-[40px] text-[24px] font-medium lg:leading-[60px]  pb-[50px]'>How Does It Work?</h2>
+      <h2 className='text-[#0b1433] lg:w-[550px] text-center lg:text-[40px] text-[24px] font-medium  pb-[50px]'>How Does It Work?</h2>
       </div>
       
       <div className='lg:w-[80%] w-[90%] mx-auto lg:flex  items-center gap-5 lg:pb-[100px] pb-[50px] '>
