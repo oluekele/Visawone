@@ -17,7 +17,7 @@ const Footer = () => {
           <Link href='/' ><Image src={Logo} width={180} height={50} alt='Company logo' className='w-[180px] z-[999]'/></Link>
             
           </div>
-          <p className='w-[90%] lg:w-[60%] lg:pb-10 pb-6 text-[#0C0459] text-[16px] '>VisaWone App is a trusted companion in explore the world.</p>
+          <p className='w-[90%] lg:w-[60%] lg:pb-10 pb-6  text-[18px]'>VisaWone App is a trusted companion in exploring the world.</p>
           
           <div className='flex gap-10 transition-all'>
             <FaInstagram size={20} className='cursor-pointer hover:-translate-y-0.5 hover:ease-in-out'/>
@@ -26,19 +26,20 @@ const Footer = () => {
             <FaPinterest  size={20} className='cursor-pointer hover:-translate-y-0.5 hover:ease-in-out'/>
           </div>
         </div>
-        <div className='flex justify-between mt-[30px] lg:w-[60%] lg:mt-0'>
+        <div className='flex flex-wrap justify-between mt-[30px] lg:w-[60%] lg:mt-0'>
           <div >
-            <h2 className='font-medium  lg:text-[24px] text-[18px]'>Company</h2>
-            <ul className='flex-col items-center text-[16px]  font-medium '>
+            <h2 className='font-[400] text-[24px] '>Company</h2>
+            <ul className='flex-col items-center text-[18px] font-[400]'>
             <li className='' ><Link href='/'>Home</Link></li>
             <li className=''><Link href='/'>About</Link></li>
             <li className=''><Link href='/'>Feature</Link></li>
             <li className=''><Link href='/'>Team</Link></li>
+            
             </ul>
           </div>
           <div >
-            <h2 className='font-medium lg:text-[24px] text-[18px] '>Quick Link</h2>
-            <ul className='flex-col items-center  text-[16px]  font-medium '>
+            <h2 className='font-[400] text-[24px] '>Quick Link</h2>
+            <ul className='flex-col items-center  text-[18px]  font-[400] '>
               <li className='' id='fontActive'><Link href="https://visawone.com/visa-interviews/">Visa Interviews</Link></li>
               <li className=' '><Link href="https://visawone.com/evisa/">eVisa</Link></li>
               <li className=' '><Link href="https://visawone.com/passport/">Passport</Link></li>
@@ -47,8 +48,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className=' lg:w-[250px]'>
-            <h2 className='font-medium lg:text-[24px] text-[18px] '>Our Services</h2>
-            <ul className='flex-col items-center text-[16px] font-medium '>
+            <h2 className='font-[400] text-[24px]'>Our Services</h2>
+            <ul className='flex-col items-center text-[16px] font-[400] '>
             {/* <li className=' pt-2' ><Link href='/'>Book Flight</Link></li>
             <li className=' pt-2'><Link href='/'>Protected</Link></li>
             <li className=' pt-2'><Link href='/'>Not Found</Link></li> */}

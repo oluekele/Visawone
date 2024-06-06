@@ -22,7 +22,7 @@ const Header = () => {
         
       </div>
       <div className='lg:flex items-center hidden gap-10 '>
-        <ul className='flex items-center gap-6 text-[18px]  font-[600] '>
+        <ul className='flex items-center gap-6 text-[18px]  font-[400] '>
           <li><Link href="https://visawone.com/visa-interviews/">Visa Interviews</Link></li>
           <li><Link href="https://visawone.com/evisa/">eVisa</Link></li>
           <li><Link href="https://visawone.com/passport/">Passport</Link></li>
@@ -39,7 +39,7 @@ const Header = () => {
         ? 'fixed left-0 top-[100px] py-4 px-6 bg-[#fff] z-[999] pb-10  duration-200 w-[300px]'  
         : 'fixed top-[-100%] bg-[#fff]  duration-200 z-[999] w-[300px]'}>
         <div className='flex-col items-center gap-10 w-[150px]'>
-          <ul className='flex-col items-center text-[18px]   font-medium  w-[70px]'>
+          <ul className='flex-col items-center text-[18px]   font-[400]  w-[70px]'>
             
             <li className=' pb-2 w-[150px]' ><a href="https://visawone.com/visa-interviews/">Visa Interviews</a></li>
           <li className=' pb-2'><Link href="https://visawone.com/evisa/">eVisa</Link></li>

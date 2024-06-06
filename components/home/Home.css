@@ -11,7 +11,7 @@
 }
 #imageleft{
   animation-name: moveleft;
-  animation-duration: 10s;
+  animation-duration: 20s;
   animation-delay: 0ms;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -19,15 +19,33 @@
 }
 @keyframes moveleft{
   0%{
-    transform: translateX(0);
+    transform: translateX(0%);
   }
   
   100%{
-    transform: translateX(-18%);
+    transform: translateX(-110%);
+  }
+ 
+}
+#iconleft{
+  animation-name: moveleft;
+  animation-duration: 50s;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-play-state: running;
+}
+@keyframes moveleft{
+  0%{
+    transform: translateX(0%);
   }
   
-
+  100%{
+    transform: translateX(-100%);
+  }
+ 
 }
+
 #sha1{
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.603);
 }
