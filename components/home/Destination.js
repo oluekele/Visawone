@@ -18,7 +18,7 @@ const Destination = () => {
     <div className='overflow-hidden '>
       
       <div className='w-full absolute top-[-100px] left-[-50px] z-[-1]' >
-        <Image src={Bana} width={600} height={500} alt='background' />
+        <Image src={Bana} width={600} height={500} alt='bg' />
       </div>
       <div className='w-full  pl-4 md:pl-0 relative overflow-hidden lg:pl-[150px] lg:flex items-center justify-between gap-10 huge pb-10' >
         <div className=' flex-col items-center justify-center lg:w-[45%] w-[90%] mx-auto pt-10'>
@@ -38,7 +38,6 @@ const Destination = () => {
           <Image src={ViswoneDemo} alt='phone' className='h-[600px]' width={300} height={600}/>
 
           <Image src={Pattern} width={600} height={500} alt='flow' className=' h-[400px]  object-cover mt-[150px] ml-[-100px] z-[-1]' />
-          
           
         </div>
         <div className=' w-full mt-[-320px] lg:left-[62%] overflow-hidden z-[999] absolute top-[98%] md:left-[35%] left-[80px]' >
