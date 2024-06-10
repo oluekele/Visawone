@@ -17,7 +17,7 @@ const Footer = () => {
           <Link href='/' ><Image src={Logo} width={180} height={50} alt='Company logo' className='w-[180px] z-[999]'/></Link>
             
           </div>
-          <p className='w-[90%] lg:w-[60%] lg:pb-10 pb-6  text-[18px]'>VisaWone App is a trusted companion in exploring the world.</p>
+          <p className='w-[90%] lg:w-[60%] lg:pb-10 pb-6  text-[18px]'>Simplifying your visa journey from eligibility check to application, all in one app.</p>
           
           <div className='flex gap-10 transition-all'>
             <FaInstagram size={20} className='cursor-pointer hover:-translate-y-0.5 hover:ease-in-out'/>
